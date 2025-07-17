@@ -1,0 +1,77 @@
+/*RESERVATION PAGE CSS*/
+:root {
+  --bg-color: #ffffff;
+  --text-color: #222222;
+  --accent-color: #ff5a00;
+  --card-bg: #1e1e1e;
+}
+
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --accent-color: #ff8c42;
+  --card-bg: #1e1e1e;
+}
+
+/* Apply them to global layout */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  font-family: sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+.reservation-page {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.reservation-page h1 {
+  font-size: 2.5rem;
+  color: #ff5a00;
+  margin-bottom: 0.5rem;
+}
+
+.reservation-page p {
+  margin-bottom: 2rem;
+  color: #777;
+}
+
+.reservation-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  text-align: left;
+}
+
+.reservation-form label {
+  font-weight: bold;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation-form input {
+  padding: 0.7rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.reservation-form button {
+  padding: 0.9rem;
+  background-color: #ff5a00;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.reservation-form button:hover {
+  background-color: #e74e00;
+}

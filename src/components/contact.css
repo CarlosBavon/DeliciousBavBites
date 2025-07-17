@@ -1,0 +1,92 @@
+/*CONTACT INFO CSS*/
+:root {
+  --bg-color: #ffffff;
+  --text-color: #222222;
+  --accent-color: #ff5a00;
+  --card-bg: #1e1e1e;
+}
+
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --accent-color: #ff8c42;
+  --card-bg: #1e1e1e;
+}
+
+/* Apply them to global layout */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  font-family: sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-page {
+  max-width: 700px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contact-page h1 {
+  color: #ff5a00;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-page p {
+  color: #777;
+  margin-bottom: 2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  text-align: left;
+}
+
+.contact-form label {
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+}
+
+.contact-form button {
+  background-color: #ff5a00;
+  color: white;
+  border: none;
+  padding: 0.9rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #e74e00;
+}
+
+.contact-info {
+  margin-top: 3rem;
+  background: #fff5ed;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  color: #333;
+}
+
+.contact-info h2 {
+  color: #ff5a00;
+  margin-bottom: 1rem;
+}
+

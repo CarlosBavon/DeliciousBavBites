@@ -1,0 +1,26 @@
+{
+  "short_name": "Bav Bites",
+  "name": "Delicious Bav Bites",
+  "description": "Delicious Bav Bites is a collection of Bavarian Bites, a traditional food from Bavaria, Germany. The food is made with locally sourced ingredients and is a perfect way to experience the local cuisine of Bavaria. The food is also a great way to try new flavors and ingredients.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ff5a00",
+  "background_color": "#ffffff"
+}

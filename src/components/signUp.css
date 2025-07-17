@@ -1,0 +1,70 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #222222;
+  --accent-color: #ff5a00;
+  --card-bg: #1e1e1e;
+}
+
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #fffff;
+  --accent-color: #ff8c42;
+  --card-bg: #1e1e1e;
+}
+
+/* Apply them to global layout */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  font-family: sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.signup-container {
+  border: 2px solid #ffcc80;
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  background-color: #fff3e0;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.signup-form input {
+  width: 95%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ffcc80;
+  border-radius: 6px;
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6f00;
+    color: var(--text-color);
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.signup-form button:hover {
+  background-color: #e65100;
+}
+
+p {
+  color: var(--text-color);
+}
+
+p a {
+  color: #ff6f00;
+  text-decoration: none;
+  border-bottom: 2px solid #e65100;
+  margin-left: 10px;
+}
